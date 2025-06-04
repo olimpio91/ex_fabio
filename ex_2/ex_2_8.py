@@ -19,7 +19,7 @@ system("clear")
 #desempacotamento
 a,b,c = valores
 
-if a + b > c :
+if a + b > c or a + c > b or b + c > a:
     #Aprendi isso com o chat gpt, antes usava varios operadores lígicos
     #Esse tipo de comparação não sabia que era possivel.
     if a == b == c:
